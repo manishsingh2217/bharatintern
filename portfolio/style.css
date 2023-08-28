@@ -1,0 +1,286 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans:wght@600;700;800&display=swap');
+
+ 
+ *{
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Kalam', cursive; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+
+ /* desig home page start here */
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(/image/banner1.jpg);
+    background-size:cover;
+    color:white;
+    background-attachment: fixed;
+    
+}
+
+nav{
+    width: 100%;
+    height:15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding:0 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    overflow-y: hidden;
+}
+
+.logo{
+    font-size: 1.5em;
+    width: 200px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-right: 300px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding:0.5rem 1rem;
+}
+
+
+.menu i{
+      font-size: 1rem;
+      margin: 0 0.5rem;
+      cursor: pointer;
+      overflow: hidden;
+}
+
+.menu a:hover{
+    background-color: #6ab04c;
+    border-radius: 10px;
+    background: fixed ;
+}
+
+.menu a:nth-child(5){
+    background-color: #6ab04c;
+    border-radius:10px;
+    margin: 0 1rem;
+}
+
+.container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 70px;
+}
+
+.left{
+    margin-top: 10vh;
+    flex-basis: 40%;
+    height: 70vh;
+}
+
+.right{
+    flex-basis: 60%;
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: #6ab04c;
+}
+
+.right img{
+  width:850px;
+}
+
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size:3em;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+
+.lr{
+    height: 40px;
+}
+
+#hire{
+    text-decoration:none;
+    background-color: #6ab04c;
+    color: white;
+    padding: 15px 10px;
+    border:1px solid transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+    margin:0 1rem;
+    overflow-y: hidden;
+}
+
+#myp{
+    text-decoration:none;
+    color: white;
+    padding: 20px 20px;
+    border:1px dashed white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbio img{
+    flex-basis: 50%;
+    height:700px;
+    border-radius: 16px;
+}
+
+.rightbio{
+    flex-basis:60% ;
+    /* padding:0 40px; */
+    text-align:right;
+    margin-top: 60px;
+    margin-right: 50px;
+    padding: 0 40px;
+}
+
+.rightbio p{
+    margin:15px 0;
+    line-height: 40px; 
+}
+
+.rightbio h1{
+    font-size: 60px;
+}
+
+.info{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   text-align: left;
+}
+
+#follow{
+    text-align: center;
+
+}
+
+#follow i{
+    color:#6ab04c;
+    font-size:24px;
+    margin: 0 8px;
+}
+ 
+
+.link-h{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 48px;
+    height: 90px;
+}
+
+
+#cv{
+      text-decoration: none;
+      color:black;
+      padding: 16px 32px;
+      border-radius: 16px;
+      font-size: 20px;
+      margin: 0 16px;
+      border: 1px dashed grey;
+     
+}
+
+#services{
+    padding:50px 70px;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, .02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-right: 160px;
+}
+
+.intro h1{
+    font-size: 48px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.cardbody{
+    flex-basis: 30%;
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 40px 0;
+    margin-right: 10px;
+    border-radius: 3px solid transparent;
+}
+
+
+.cardbody h3{
+    font-size: 20px;
+    margin:8px 0px;
+}
+
+.cardbody i{
+    font-size: 34px;
+    color:#6ab04c;
+}
+
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction:row;
+
+}
+
+.skills h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.skill{
+   
+}
+
+.skill img{
+    width: 100px;
+    border-radius:50%;
+}
