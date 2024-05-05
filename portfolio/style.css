@@ -277,6 +277,8 @@ nav{
 }
 
 .skill{
+    display: flex;
+    flex-direction: row;
    
 }
 
